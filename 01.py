@@ -23,6 +23,8 @@ class PythonStudent():
         print('我在做功课')
         return None
 
+#查看类的内容
+print(PythonStudent.__dict__)
 
 #实例一个学生
 yueyue = PythonStudent()
